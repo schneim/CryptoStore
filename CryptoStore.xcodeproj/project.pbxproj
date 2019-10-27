@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3CF11A236595F600B23114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF119236595F600B23114 /* AppDelegate.swift */; };
+		9B3CF11C236595F600B23114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF11B236595F600B23114 /* ContentView.swift */; };
+		9B3CF11F236595F600B23114 /* CryptoStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF11D236595F600B23114 /* CryptoStore.xcdatamodeld */; };
+		9B3CF121236595F900B23114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CF120236595F900B23114 /* Assets.xcassets */; };
+		9B3CF124236595F900B23114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CF123236595F900B23114 /* Preview Assets.xcassets */; };
+		9B3CF127236595F900B23114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CF125236595F900B23114 /* Main.storyboard */; };
+		9B3CF133236595F900B23114 /* CryptoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF132236595F900B23114 /* CryptoStoreTests.swift */; };
+		9B3CF13E236595F900B23114 /* CryptoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF13D236595F900B23114 /* CryptoStoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B3CF12F236595F900B23114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3CF10E236595F500B23114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3CF115236595F500B23114;
+			remoteInfo = CryptoStore;
+		};
+		9B3CF13A236595F900B23114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3CF10E236595F500B23114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3CF115236595F500B23114;
+			remoteInfo = CryptoStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B3CF116236595F600B23114 /* CryptoStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3CF119236595F600B23114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B3CF11B236595F600B23114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B3CF11E236595F600B23114 /* CryptoStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoStore.xcdatamodel; sourceTree = "<group>"; };
+		9B3CF120236595F900B23114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3CF123236595F900B23114 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B3CF126236595F900B23114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B3CF128236595F900B23114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3CF129236595F900B23114 /* CryptoStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoStore.entitlements; sourceTree = "<group>"; };
+		9B3CF12E236595F900B23114 /* CryptoStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3CF132236595F900B23114 /* CryptoStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoStoreTests.swift; sourceTree = "<group>"; };
+		9B3CF134236595F900B23114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3CF139236595F900B23114 /* CryptoStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3CF13D236595F900B23114 /* CryptoStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoStoreUITests.swift; sourceTree = "<group>"; };
+		9B3CF13F236595F900B23114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3CF113236595F500B23114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF12B236595F900B23114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF136236595F900B23114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3CF10D236595F500B23114 = {
+			isa = PBXGroup;
+			children = (
+				9B3CF118236595F600B23114 /* CryptoStore */,
+				9B3CF131236595F900B23114 /* CryptoStoreTests */,
+				9B3CF13C236595F900B23114 /* CryptoStoreUITests */,
+				9B3CF117236595F600B23114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3CF117236595F600B23114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3CF116236595F600B23114 /* CryptoStore.app */,
+				9B3CF12E236595F900B23114 /* CryptoStoreTests.xctest */,
+				9B3CF139236595F900B23114 /* CryptoStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3CF118236595F600B23114 /* CryptoStore */ = {
+			isa = PBXGroup;
+			children = (
+				9B3CF119236595F600B23114 /* AppDelegate.swift */,
+				9B3CF11B236595F600B23114 /* ContentView.swift */,
+				9B3CF120236595F900B23114 /* Assets.xcassets */,
+				9B3CF125236595F900B23114 /* Main.storyboard */,
+				9B3CF128236595F900B23114 /* Info.plist */,
+				9B3CF129236595F900B23114 /* CryptoStore.entitlements */,
+				9B3CF11D236595F600B23114 /* CryptoStore.xcdatamodeld */,
+				9B3CF122236595F900B23114 /* Preview Content */,
+			);
+			path = CryptoStore;
+			sourceTree = "<group>";
+		};
+		9B3CF122236595F900B23114 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B3CF123236595F900B23114 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B3CF131236595F900B23114 /* CryptoStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3CF132236595F900B23114 /* CryptoStoreTests.swift */,
+				9B3CF134236595F900B23114 /* Info.plist */,
+			);
+			path = CryptoStoreTests;
+			sourceTree = "<group>";
+		};
+		9B3CF13C236595F900B23114 /* CryptoStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3CF13D236595F900B23114 /* CryptoStoreUITests.swift */,
+				9B3CF13F236595F900B23114 /* Info.plist */,
+			);
+			path = CryptoStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3CF115236595F500B23114 /* CryptoStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3CF142236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStore" */;
+			buildPhases = (
+				9B3CF112236595F500B23114 /* Sources */,
+				9B3CF113236595F500B23114 /* Frameworks */,
+				9B3CF114236595F500B23114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoStore;
+			productName = CryptoStore;
+			productReference = 9B3CF116236595F600B23114 /* CryptoStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B3CF12D236595F900B23114 /* CryptoStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3CF145236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStoreTests" */;
+			buildPhases = (
+				9B3CF12A236595F900B23114 /* Sources */,
+				9B3CF12B236595F900B23114 /* Frameworks */,
+				9B3CF12C236595F900B23114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3CF130236595F900B23114 /* PBXTargetDependency */,
+			);
+			name = CryptoStoreTests;
+			productName = CryptoStoreTests;
+			productReference = 9B3CF12E236595F900B23114 /* CryptoStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B3CF138236595F900B23114 /* CryptoStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3CF148236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStoreUITests" */;
+			buildPhases = (
+				9B3CF135236595F900B23114 /* Sources */,
+				9B3CF136236595F900B23114 /* Frameworks */,
+				9B3CF137236595F900B23114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3CF13B236595F900B23114 /* PBXTargetDependency */,
+			);
+			name = CryptoStoreUITests;
+			productName = CryptoStoreUITests;
+			productReference = 9B3CF139236595F900B23114 /* CryptoStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3CF10E236595F500B23114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Jemm;
+				TargetAttributes = {
+					9B3CF115236595F500B23114 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					9B3CF12D236595F900B23114 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9B3CF115236595F500B23114;
+					};
+					9B3CF138236595F900B23114 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9B3CF115236595F500B23114;
+					};
+				};
+			};
+			buildConfigurationList = 9B3CF111236595F500B23114 /* Build configuration list for PBXProject "CryptoStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B3CF10D236595F500B23114;
+			productRefGroup = 9B3CF117236595F600B23114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3CF115236595F500B23114 /* CryptoStore */,
+				9B3CF12D236595F900B23114 /* CryptoStoreTests */,
+				9B3CF138236595F900B23114 /* CryptoStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3CF114236595F500B23114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3CF127236595F900B23114 /* Main.storyboard in Resources */,
+				9B3CF124236595F900B23114 /* Preview Assets.xcassets in Resources */,
+				9B3CF121236595F900B23114 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF12C236595F900B23114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF137236595F900B23114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3CF112236595F500B23114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3CF11C236595F600B23114 /* ContentView.swift in Sources */,
+				9B3CF11F236595F600B23114 /* CryptoStore.xcdatamodeld in Sources */,
+				9B3CF11A236595F600B23114 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF12A236595F900B23114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3CF133236595F900B23114 /* CryptoStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3CF135236595F900B23114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3CF13E236595F900B23114 /* CryptoStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3CF130236595F900B23114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3CF115236595F500B23114 /* CryptoStore */;
+			targetProxy = 9B3CF12F236595F900B23114 /* PBXContainerItemProxy */;
+		};
+		9B3CF13B236595F900B23114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3CF115236595F500B23114 /* CryptoStore */;
+			targetProxy = 9B3CF13A236595F900B23114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B3CF125236595F900B23114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3CF126236595F900B23114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3CF140236595F900B23114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B3CF141236595F900B23114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9B3CF143236595F900B23114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoStore/CryptoStore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B3CF144236595F900B23114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoStore/CryptoStore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9B3CF146236595F900B23114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				INFOPLIST_FILE = CryptoStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoStore.app/Contents/MacOS/CryptoStore";
+			};
+			name = Debug;
+		};
+		9B3CF147236595F900B23114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				INFOPLIST_FILE = CryptoStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoStore.app/Contents/MacOS/CryptoStore";
+			};
+			name = Release;
+		};
+		9B3CF149236595F900B23114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				INFOPLIST_FILE = CryptoStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CryptoStore;
+			};
+			name = Debug;
+		};
+		9B3CF14A236595F900B23114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55TU7VQUHN;
+				INFOPLIST_FILE = CryptoStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jemm.CryptoStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CryptoStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3CF111236595F500B23114 /* Build configuration list for PBXProject "CryptoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3CF140236595F900B23114 /* Debug */,
+				9B3CF141236595F900B23114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3CF142236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3CF143236595F900B23114 /* Debug */,
+				9B3CF144236595F900B23114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3CF145236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3CF146236595F900B23114 /* Debug */,
+				9B3CF147236595F900B23114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3CF148236595F900B23114 /* Build configuration list for PBXNativeTarget "CryptoStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3CF149236595F900B23114 /* Debug */,
+				9B3CF14A236595F900B23114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B3CF11D236595F600B23114 /* CryptoStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B3CF11E236595F600B23114 /* CryptoStore.xcdatamodel */,
+			);
+			currentVersion = 9B3CF11E236595F600B23114 /* CryptoStore.xcdatamodel */;
+			path = CryptoStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B3CF10E236595F500B23114 /* Project object */;
+}
