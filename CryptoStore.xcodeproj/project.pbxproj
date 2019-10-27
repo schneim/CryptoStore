@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		9B3CF127236595F900B23114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CF125236595F900B23114 /* Main.storyboard */; };
 		9B3CF133236595F900B23114 /* CryptoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF132236595F900B23114 /* CryptoStoreTests.swift */; };
 		9B3CF13E236595F900B23114 /* CryptoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CF13D236595F900B23114 /* CryptoStoreUITests.swift */; };
+		9BEF6A652365980600688D62 /* ASN1Decoder in Frameworks */ = {isa = PBXBuildFile; productRef = 9BEF6A642365980600688D62 /* ASN1Decoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEF6A652365980600688D62 /* ASN1Decoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,9 @@
 			dependencies = (
 			);
 			name = CryptoStore;
+			packageProductDependencies = (
+				9BEF6A642365980600688D62 /* ASN1Decoder */,
+			);
 			productName = CryptoStore;
 			productReference = 9B3CF116236595F600B23114 /* CryptoStore.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 9B3CF10D236595F500B23114;
+			packageReferences = (
+				9BEF6A632365980600688D62 /* XCRemoteSwiftPackageReference "ASN1Decoder" */,
+			);
 			productRefGroup = 9B3CF117236595F600B23114 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -601,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BEF6A632365980600688D62 /* XCRemoteSwiftPackageReference "ASN1Decoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schneim/ASN1Decoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BEF6A642365980600688D62 /* ASN1Decoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BEF6A632365980600688D62 /* XCRemoteSwiftPackageReference "ASN1Decoder" */;
+			productName = ASN1Decoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9B3CF11D236595F600B23114 /* CryptoStore.xcdatamodeld */ = {
